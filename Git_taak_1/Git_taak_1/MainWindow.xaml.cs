@@ -36,5 +36,25 @@ namespace Git_taak_1
         {
             this.Background = new SolidColorBrush(Colors.LightGray);
         }
+        private void KleurButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender == roodButton)
+            {
+                ShowColorInfo("#FF0000", "Rood is de kleur van warmte.", "Rood.png");
+            }
+            else if (sender == groenButton)
+            {
+                ShowColorInfo("#008000", "Groen is de kleur van genezing.", "Groen.png");
+            }
+            else if (sender == blauwButton)
+            {
+                ShowColorInfo("#0000FF", "Blauw is de kleur van intelligentie.", "Blauw.png");
+            }
+            else if (sender == geelButton)
+            {
+                ShowColorInfo("#FFFF00", "Geel is de kleur van levenslust.", "Geel.png");
+            }
+        }
+
     }
 }
