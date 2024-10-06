@@ -15,5 +15,16 @@
         <Button Name="blauwButton" Content="Blauw" HorizontalAlignment="Left" Margin="448,247,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
         <Button Name="geelButton"  Content="Geel" HorizontalAlignment="Left" Margin="448,167,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
         <Button Name="roodButton" Content="Rood" HorizontalAlignment="Left" Margin="288,167,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
+        <TextBlock Name="ColorCodeText" 
+         FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,348,0,0" Text="Klik op een kleur om de code te zien."/>
+        <TextBlock Name="ColorInfoText" 
+         FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,390,0,0"  Text="Klik op een kleur voor meer informatie."/>
+
+
+
+
+
+
+
     </Grid>
 </Window>

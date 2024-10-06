@@ -54,7 +54,15 @@ namespace Git_taak_1
             {
                 ShowColorInfo("#FFFF00", "Geel is de kleur van levenslust.", "Geel.png");
             }
+
         }
 
+        // Help functie voor de kleuren te updaten en informatie 
+        private void ShowColorInfo(string colorCode, string colorInfo, string imagePath)
+        {
+            ColorCodeText.Text = $"Kleurcode: {colorCode}";
+            ColorInfoText.Text = colorInfo;
+            ColorImageDisplay.Source = new BitmapImage(new Uri(imagePath, UriKind.Relative));
+        }
     }
 }
