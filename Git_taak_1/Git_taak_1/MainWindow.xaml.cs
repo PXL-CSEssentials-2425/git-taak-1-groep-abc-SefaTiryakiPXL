@@ -25,6 +25,7 @@ namespace Git_taak_1
         {
             InitializeComponent();
         }
+        // onderste 2 zijn de hover effect
         private void PXLpng_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
             this.Background = PxlPhoto.Source != null ? new SolidColorBrush(Colors.LightBlue) : new SolidColorBrush(Colors.LightGray);
