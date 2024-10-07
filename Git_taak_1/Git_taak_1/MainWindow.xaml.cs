@@ -51,5 +51,26 @@ namespace Git_taak_1
         {
             this.Background = Brushes.Blue;
         }
+        // rood
+        private void Image_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            KleurCodeBox.Text = "Rood: #FF0000";
+        }
+        // groen
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            KleurCodeBox.Text = "Groen: #008000";
+        }
+        // geel
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            KleurCodeBox.Text = "Geel: #FFFF00";
+        }
+        // blauw
+        private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            KleurCodeBox.Text = "Blauw: #0000FF";
+        }
+        
     }
 }

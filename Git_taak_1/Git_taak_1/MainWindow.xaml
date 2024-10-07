@@ -14,10 +14,14 @@
 
 
 
-        <Image Source="/Rood.png" Height="100" Width="130" Margin="184,111,486,223" MouseEnter="Image_MouseEnter" MouseLeave="GrijsOpnieuw" />
-        <Image Source="/Geel.png" Height="100" Width="130" Margin="400,111,270,223" MouseEnter="Image_MouseEnter_1" MouseLeave="GrijsOpnieuw" />
-        <Image Source="/Groen.png" Height="100" Width="130" Margin="184,236,486,98" MouseEnter="Image_MouseEnter_2" MouseLeave="GrijsOpnieuw" />
-        <Image Source="/Blauw.png" Height="100" Width="130" Margin="400,236,270,98" MouseEnter="Image_MouseEnter_3" MouseLeave="GrijsOpnieuw" />
+        <Image Source="/Rood.png" Height="100" Width="130" Margin="184,111,486,223" MouseEnter="Image_MouseEnter" MouseLeave="GrijsOpnieuw" PreviewMouseDown="Image_PreviewMouseDown" />
+        <Image Source="/Geel.png" Height="100" Width="130" Margin="400,111,270,223" MouseEnter="Image_MouseEnter_1" MouseLeave="GrijsOpnieuw" MouseDown="Image_MouseDown_1" />
+        <Image Source="/Groen.png" Height="100" Width="130" Margin="184,236,486,98" MouseEnter="Image_MouseEnter_2" MouseLeave="GrijsOpnieuw" MouseDown="Image_MouseDown" />
+        <Image Source="/Blauw.png" Height="100" Width="130" Margin="400,236,270,98" MouseEnter="Image_MouseEnter_3" MouseLeave="GrijsOpnieuw" MouseDown="Image_MouseDown_2" />
+        <Label Name="KleurCodeLabel" Content="Informatie:" HorizontalAlignment="Left" Margin="216,388,0,0" VerticalAlignment="Top"/>
+        <Label Name="InformatieLabel" Content="Kleurcode:" HorizontalAlignment="Left" Margin="216,357,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="KleurCodeBox" HorizontalAlignment="Left" Margin="323,361,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="InformatieBox" HorizontalAlignment="Left" Margin="323,392,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
 
     </Grid>
