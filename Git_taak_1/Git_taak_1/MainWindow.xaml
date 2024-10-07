@@ -6,25 +6,9 @@
         xmlns:local="clr-namespace:Git_taak_1"
         mc:Ignorable="d"
         
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="LightGray">
+        
     <Grid>
         <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" Margin="185,58,0,0" VerticalAlignment="Top"/>
-        <Image Name="PxlPhoto" Source="/PXL.png"  Margin="630,0,0,350" MouseEnter="PXLpng_MouseEnter" MouseLeave="PXLpng_MouseLeave" />
-        <Image Name="ColorImageDisplay" Height="100" Width="100" Margin="350,34,350,300"/>
-        <Button Name="groenButton" Content="Groen" HorizontalAlignment="Left" Margin="288,247,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
-        <Button Name="blauwButton" Content="Blauw" HorizontalAlignment="Left" Margin="448,247,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
-        <Button Name="geelButton"  Content="Geel" HorizontalAlignment="Left" Margin="448,167,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
-        <Button Name="roodButton" Content="Rood" HorizontalAlignment="Left" Margin="288,167,0,0" VerticalAlignment="Top" Height="50" Width="60" Click="KleurButton_Click"/>
-        <TextBlock Name="ColorCodeText" 
-         FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,348,0,0" Text="Klik op een kleur om de code te zien."/>
-        <TextBlock Name="ColorInfoText" 
-         FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,390,0,0"  Text="Klik op een kleur voor meer informatie."/>
-
-
-
-
-
-
-
     </Grid>
 </Window>
