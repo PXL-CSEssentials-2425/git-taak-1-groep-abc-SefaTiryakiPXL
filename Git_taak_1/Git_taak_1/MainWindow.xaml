@@ -7,9 +7,18 @@
         mc:Ignorable="d"
         
         Title="MainWindow" Height="450" Width="800" Background="LightGray">
-        
+
     <Grid>
         <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" Margin="185,58,0,0" VerticalAlignment="Top"/>
-        <Image Name="PxlPhoto" Source="/PXL.png"  Margin="630,0,0,350" MouseEnter="PXLpng_MouseEnter" MouseLeave="PXLpng_MouseLeave" />
+        <Image Name="PxlPhoto" Source="/PXL.png"  Margin="630,0,0,350" />
+
+
+
+        <Image Source="/Rood.png" Height="100" Width="130" Margin="184,111,486,223" MouseEnter="Image_MouseEnter" MouseLeave="GrijsOpnieuw" />
+        <Image Source="/Geel.png" Height="100" Width="130" Margin="400,111,270,223" MouseEnter="Image_MouseEnter_1" MouseLeave="GrijsOpnieuw" />
+        <Image Source="/Groen.png" Height="100" Width="130" Margin="184,236,486,98" MouseEnter="Image_MouseEnter_2" MouseLeave="GrijsOpnieuw" />
+        <Image Source="/Blauw.png" Height="100" Width="130" Margin="400,236,270,98" MouseEnter="Image_MouseEnter_3" MouseLeave="GrijsOpnieuw" />
+
+
     </Grid>
 </Window>

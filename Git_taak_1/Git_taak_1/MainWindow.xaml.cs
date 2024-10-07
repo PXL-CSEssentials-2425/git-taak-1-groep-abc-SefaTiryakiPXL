@@ -25,5 +25,31 @@ namespace Git_taak_1
         {
             InitializeComponent();
         }
+        // red
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Red;
+        }
+
+        // verandert alle mouseleave naam naar terug grijs zodat je dit maar 1 keer moet veranderen
+        private void GrijsOpnieuw(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
+        // geel
+        private void Image_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Yellow;
+        }
+        // groen
+        private void Image_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Green;
+        }
+        // blauw
+        private void Image_MouseEnter_3(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Blue;
+        }
     }
 }
